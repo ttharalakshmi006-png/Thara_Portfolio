@@ -1,0 +1,58 @@
+body{
+  background: linear-gradient(135deg,#000000,#0f2027,#203a43,#2c5364);
+  color:white;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.profile-img{
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  border:4px solid #00f7ff;
+  transition: 0.4s;
+}
+
+.profile-img:hover{
+  transform: scale(1.1);
+}
+
+.section-title{
+  color:#00f7ff;
+  border-bottom:2px solid #00f7ff;
+  display:inline-block;
+  margin-bottom:15px;
+}
+
+.card{
+  background-color: rgba(255,255,255,0.05);
+  border:1px solid #00f7ff;
+  transition:0.4s;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow:0 0 20px #00f7ff;
+}
+
+.btn-custom{
+  background-color:#00f7ff;
+  color:black;
+  font-weight:bold;
+}
+
+.btn-custom:hover{
+  background-color:white;
+  color:black;
+}
+
+footer{
+  background-color:black;
+  text-align:center;
+  padding:15px;
+  margin-top:40px;
+}
